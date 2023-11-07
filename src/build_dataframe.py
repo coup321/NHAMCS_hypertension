@@ -78,7 +78,7 @@ def validate_data():
     return val
 
 
-def load_dfs(as_list=False):
+def load_dfs(as_list=False, force_download=False):
     '''
     Load the data from the pickled files. The pickled files load and are
     processed faster than the raw spss ones - so this is mainly an efficiency
@@ -87,7 +87,7 @@ def load_dfs(as_list=False):
     If the files are not found in the directory, then they are downloaded
     and unzipped first
     '''
-    if validate_data():
+    if validate_data() and not force_download:
         files = glob.glob('./data/pickled_files/*')
         dfs = []
         for file in files:
@@ -323,8 +323,8 @@ def tweak_df(df):
     )
 
 
-def build_dataframe():
-    raw_df = load_dfs()
+def build_dataframe(force_download=False):
+    raw_df = load_dfs(force_download=force_download)
     df = tweak_df(raw_df)
     raw_df.to_pickle('./outputs/working_raw_dataframe.pkl')
     df.to_pickle('./outputs/working_dataframe.pkl')

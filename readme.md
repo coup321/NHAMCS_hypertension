@@ -58,6 +58,7 @@ consider the following steps.
 #### Clone the repository
 
 ```
+git clone https://github.com/coup321/NHAMCS_hypertension
 ```
 
 #### Create a new virtual environment
@@ -90,7 +91,7 @@ By default, you can run the package and it will use the dataset in the folder
 outputs folder.
 
 ```
-python NHAMCS_dataset
+python NHAMCS_hypertension
 ```
 If you would like to download the data from the
 (https://ftp.cdc.gov/pub/Health\_Statistics/NCHS/dataset\_documentation/nhamcs/spss/){CDC FTP servers}
@@ -98,7 +99,7 @@ then run the package with the force flag. This behavior is also created if the
 working\_dataset.pkl file is somehow missing.
 
 ```
-python NHAMCS_datset force
+python NHAMCS_hypertension force
 ```
 
 Keep in mind that it can take 3-5 minutes to download, unzip, and pickle the

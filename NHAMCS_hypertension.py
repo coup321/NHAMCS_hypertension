@@ -1,5 +1,6 @@
 import pandas as pd
 import os
+import sys
 from blood_pressure import CategoricalStats, Htn_definition
 from outcome_stats import OutcomeStats
 from bp_over_time_plots import build_time_series_multiplot
@@ -87,10 +88,11 @@ def export_cutoff(df, sbp_cutoff, dbp_cutoff):
 
 
 if __name__ == "__main__":
-    if os.path.exists('./outputs/working_dataframe.pkl'):
+    force_download = sys.argv[1] in ['force', 'Force', '--force', '--Force']
+    if os.path.exists('./outputs/working_dataframe.pkl') and not force_download:
         df = pd.read_pickle('./outputs/working_dataframe.pkl')
     else:
-        build_dataframe()
+        build_dataframe(force_download=force_download)
         df = pd.read_pickle('./outputs/working_dataframe.pkl')
     cutoffs = [
         [180, 110],
