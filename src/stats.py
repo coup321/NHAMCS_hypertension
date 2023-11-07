@@ -182,7 +182,8 @@ def weighted_contingency(ser1, ser2, weights):
     ), "All indices of ser2 must be included in weights' index"
     assert (ser1.cat.categories == ser2.cat.categories).all()
     categories = ser1.cat.categories
-    table = pd.DataFrame(index=categories, columns=['ser1', 'ser2']).fillna(0)
+    table = pd.DataFrame(index=categories, columns=[
+                         'ser1', 'ser2']).asdtype(float)
 
     for c in categories:
         table.loc[c, 'ser1'] = ((ser1 == c) * weights[ser1.index]).sum()
