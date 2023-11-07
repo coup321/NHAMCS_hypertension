@@ -3,7 +3,6 @@ Contains methods to plot the category by blood pressure for different
 categories. Used the OutcomeStats class in the outcome_stats module.
 '''
 import pandas as pd
-from blood_pressure import Htn_definition
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -17,7 +16,7 @@ def weighted_average(df, category):
 def plot_category(df, ax, category, kind):
     bins = [60, 80, 100, 120, 140, 160, 180, 200, 220, 300]
     binned_sbp = pd.cut(df.BPSYS, bins)
-    G = df.groupby(binned_sbp)
+    G = df.groupby(binned_sbp, observed=False)
 
     if kind == 'categorical':
         numerator = G.apply(lambda df: sum(df[category] * df.PATWT))
