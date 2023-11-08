@@ -93,7 +93,7 @@ outputs folder.
 python NHAMCS_hypertension
 ```
 If you would like to download the data from the
-[https://ftp.cdc.gov/pub/Health\_Statistics/NCHS/dataset\_documentation/nhamcs/spss/](CDC FTP servers)
+[CDC FTP servers](https://ftp.cdc.gov/pub/Health\_Statistics/NCHS/dataset\_documentation/nhamcs/spss/)
 then run the package with the force flag. This behavior is also created if the
 working\_dataset.pkl file is somehow missing.
 
