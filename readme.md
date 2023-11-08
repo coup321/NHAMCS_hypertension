@@ -5,7 +5,7 @@
 The National Health Ambulatory Medical Care Survey (NHMACS) is an annual
 national dataset representative of ED visits and resulting hospitalization.
 Each year the National Center for Health Statistics develops the NHAMCS
-data collection from. Trained staff then abstract data from patient charts.
+data collection form. Trained staff then abstract data from patient charts.
 Using a multi-stage probability sampling design, the dataset captures a
 representative sample of ALL visits to non-federal hospitals in the United
 States (US).
@@ -26,7 +26,7 @@ The goal of this analysis was to evaluate the charcteristics of patients
 presenting to United States hospitals and to evaluate specific outcomes
 for patients with this presentation.
 
-For each observation in the NHAMCS dataset a triage blood pressure is recored.
+For each observation in the NHAMCS dataset a triage blood pressure is recorded.
 We used this to evaluate characeristics and outcomes for patients with
 hypertension above a specified value.
 
@@ -42,10 +42,9 @@ Variables of interest included but are not limited to the following:
 ### Data outputs
 
 For convenience, all the statistical and plotting ouputs are reserved
-in the repository and can be found in the data folder.
+in the repository and can be found in the outputs.
 
-Furthermore, the raw dataset (concatenated 2015-2021 NHAMCS dataset) and the
-modified dataset are saved as pickle files in the ouptuts folder.
+Furthermore, the modified dataset saved as pickle files in the ouptuts folder.
 
 There is a notebook in the 'notebooks' folder that can be used as is to
 load and review the dataset.
@@ -94,7 +93,7 @@ outputs folder.
 python NHAMCS_hypertension
 ```
 If you would like to download the data from the
-(https://ftp.cdc.gov/pub/Health\_Statistics/NCHS/dataset\_documentation/nhamcs/spss/){CDC FTP servers}
+[https://ftp.cdc.gov/pub/Health\_Statistics/NCHS/dataset\_documentation/nhamcs/spss/](CDC FTP servers)
 then run the package with the force flag. This behavior is also created if the
 working\_dataset.pkl file is somehow missing.
 
@@ -110,7 +109,7 @@ regular expression filtering.
 
 ## Comments and advice for adapting this analysis for other NHAMCS projects
 
-### Data changes over the years to be aware of
+### Data changes over the years of data collection
 - RACEETH changes to RACERETH in 2008 and there are some associated coding 
 changes
 - IMMED (ESI level) changes to IMMEDR in 2008 and there are some associated 
@@ -143,4 +142,4 @@ there are associated columnss with info about them.
 What worked for me is to create a boolean filter over the medication info I was
 interested in, then use that to filter the medications (1-30). If I was just 
 looking for a row that indicated medication was given, for example, then I would
-reduce the Nx30 filter to 1x30 with a 'any' method on the column axis.
+reduce the Nx30 filter to 1x30 with an 'any' method on the column axis.
