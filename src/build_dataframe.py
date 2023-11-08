@@ -92,6 +92,7 @@ def load_dfs(as_list=False, force_download=False):
         dfs = []
         for file in files:
             df = pd.read_pickle(file)
+            df = df.dropna(axis=1, how='all')
             dfs.append(df)
         if as_list:
             return dfs
@@ -204,7 +205,7 @@ def tweak_df(df):
                 df.ARRTIME.replace({
                     'Unknown': np.NaN,
                     '12:00 Midnight': '00:00 a.m.',
-                    '12:00 noon': '12:00 p.m.'})),
+                    '12:00 noon': '12:00 p.m.'}), format='mixed'),
             VTIMER=lambda df: df.VTIME.dt.hour.map(
                 map_timerange).astype('category'),
             CBC=lambda df_: (df_.CBC == 'Yes').astype(int),

@@ -69,7 +69,7 @@ class FileDownloader():
         self.check_directory(os.path.join(
             self.download_directory, 'pickled_files'))
         # download files
-        print('Downloading spss zip files from {self.base_url}')
+        print(f'Downloading spss zip files from: {self.base_url}')
         self.download_zipped_files()
         # unzip files
         print('Unzipping spss files')
