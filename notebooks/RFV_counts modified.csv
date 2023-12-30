@@ -1,0 +1,776 @@
+RFV_values,count,
+Blank,338097,
+"Abdominal pain, cramps, spasms, NOS",12014,gi
+Cough,10359,resp
+Vomiting,9922,gi
+Fever,9224,id
+Nausea,8830,gi
+Chest pain,8418,cv
+Shortness of breath,7659,resp
+"Headache, pain in head",7554,neuro
+"Accident, NOS",7177,trauma
+"Back pain, ache, soreness, discomfort",5395,msk
+Vertigo - dizziness,5007,neuro
+Diarrhea,4279,gi
+Nasal congestion,4238,resp
+Oth symptoms/problems relat to psycho...,3886,psych
+Throat soreness,3643,resp
+Hypertension,3440,cv
+"Pain, unspecified",3234,other
+"Leg pain, ache, soreness, discomfort",3129,msk
+General weakness,2951,other
+"Injury, other and unspecified of head...",2889,trauma
+"Motor vehicle accident, type of injur...",2872,trauma
+Skin rash,2742,derm
+"Medication, other and unspecified kinds",2682,other
+"Side pain, flank pain",2647,gi
+Anxiety and nervousness,2556,psych
+"Neck pain, ache, soreness, discomfort",2533,msk
+"Low back pain, ache, soreness, discom...",2331,msk
+"Shoulder pain, ache, soreness, discom...",2288,msk
+"Earache, pain",2260,other
+Labored or difficult breathing (dyspnea),2239,resp
+"Knee pain, ache, soreness, discomfort",2133,msk
+"Arm pain, ache, soreness, discomfort",1977,msk
+"Foot and toe pain, ache, soreness, di...",1920,msk
+"Lower abdominal pain, cramps, spasms,",1883,gi
+Depression,1731,psych
+Asthma,1725,resp
+Laceration/cut of upper extremity,1695,trauma
+Convulsions,1623,neuro
+Fainting (syncope),1616,cv
+"Hand and finger pain, ache, soreness,...",1541,msk
+Painful urination,1518,gu
+"Tiredness, exhaustion",1501,neuro
+Chills,1491,id
+Loss of feeling (anesthesia),1422,neuro
+"Upper abdominal pain, cramps, spasms",1404,gi
+"Medical counseling, NOS",1388,other
+Toothache,1365,other
+Constipation,1358,gi
+"Carbuncle, furuncle, boil, cellulitis...",1326,derm
+"Hip pain, ache, soreness, discomfort",1318,msk
+Edema,1306,other
+Wheezing,1300,resp
+"Chest discomfort, pressure, tightness",1285,cv
+"Ankle pain, ache, soreness, discomfort",1239,msk
+Diabetes mellitus,1230,endo
+Postoperative visit,1227,other
+General psychiatric or psychological ...,1227,psych
+Surgical Complications due to any imp...,1225,other
+Laceration/cut of facial area,1142,trauma
+"Injury, other and unspecified, of han...",1142,trauma
+Disorders of motor functions,1132,neuro
+Discoloration or abnormal pigmentation,1077,derm
+Functional psychoses,1068,psych
+Decreased appetite,1039,gi
+Adverse effect of alcohol,1012,tox
+"Wrist pain, ache, soreness, discomfort",963,msk
+Abnormal pulsations and palpitations,949,cv
+"Head cold, upper respiratory infectio...",945,resp
+Other symptoms referable to the nervo...,941,psych
+Swelling of leg,939,other
+Uterine and vaginal bleeding,932,obgyn
+Abnormal sensation (paresthesia),928,neuro
+Facial pain,925,other
+Other respiratory diseases,889,resp
+Insect bite,874,derm
+"Violence, NOS",871,trauma
+Unconscious on arrival,867,other
+Eye pain,851,other
+Skin itching,849,derm
+Rib pain,848,trauma
+Other heart disease,844,cv
+General ill feeling,839,other
+"Injury, multiple or unspecified",835,trauma
+Abnormal drug usage,835,tox
+Urinary tract disease except cystitis,830,gu
+Pain during pregnancy,819,obgyn
+"Other endocrine, nutritional, and met...",817,endo
+"Stomach and abdominal pain, cramps an...",791,gi
+Alcohol-related problems,787,tox
+"Pain, specified site not referable to...",765,other
+Symptoms of fluid abnormalities,742,other
+Frequency and urgency of urination,736,gu
+Other and unspecified symptoms refera...,736,other
+Blood in urine (hematuria),717,gu
+"Allergy, NOS",713,other
+Migraine headache,700,neuro
+"Injury, other and unspecified, of foo...",699,trauma
+Behavioral disturbances,696,psych
+"Urinary tract infection, NOS",669,gu
+Other disease of circulatory system,668,cv
+Diminished vision,665,neuro
+"Diseases of the esophagus, stomach, a...",656,gi
+For results of blood glucose tests,651,endo
+Inadequate data base,633,other
+Swelling of hand and finger,627,msk
+Delusions or hallucinations,612,psych
+Laceration/cut of head and neck area,609,trauma
+Adverse effect of drug abuse,606,tox
+Hostile behavior,603,psych
+Abnormal involuntary movements,591,neuro
+"Animal, human bite",587,trauma
+Nosebleed (epistaxis),584,heme
+"Injury, other and unspecified, of ankle",575,msk
+"Suture - insertion, removal",557,other
+Flu,556,id
+Groin pain,554,other
+"Spotting, bleeding during pregnancy",545,obgyn
+Anemia,544,heme
+Swelling of foot and toe,535,msk
+Pelvic pain,534,obgyn
+Diagnosed complications of pregnancy ...,532,obgyn
+Problems of pregnancy,529,obgyn
+Blood in stool (melena),528,gi
+"Injury, other and unspecified, of arm",521,msk
+Excessive sputum,516,resp
+Laceration/cut of lower extremity,514,trauma
+Difficulty in swallowing (dysphagia),512,gi
+"Contusions/abrasions/bruises of head,...",510,trauma
+"Elbow pain, ache, soreness, discomfort",500,msk
+Skin lesion,500,derm
+Organic psychoses,497,psych
+Vaginal discharge,496,obgyn
+Cerebrovascular disease,492,neuro
+Anal-rectal bleeding,484,gi
+For other and unspecified test results,481,other
+"Excessive sweating, perspiration",479,other
+Retention of urine,475,gu
+Symptoms of onset of labor,473,obgyn
+Abnormal color of eyes,463,other
+Other diseases of the skin,455,derm
+Ischemic heart disease,453,cv
+Throat pain,451,resp
+Increased heartbeat,446,cv
+Arm symptoms,445,msk
+Insomnia,438,psych
+Irregular heartbeat,424,cv
+"Breathing problems, NEC",418,resp
+Weakness (neurologic),417,neuro
+"Injury, other and unspecified, of knee",405,msk
+For other findings of blood tests,404,other
+"Bleeding, multiple or unspecified sites",400,trauma
+Hand and finger symptoms,400,msk
+Diseases of the intestine and peritoneum,397,gi
+COVID-19,393,id
+"Prenatal examination, routine",392,obgyn
+"Infections of skin, NOS",386,id
+"Injury, other and unspecified, of leg",382,trauma
+"Limitation of movement, stiffness of ...",382,neuro
+Congestion in chest,380,resp
+"Injury, other and unspecified, of wrist",379,trauma
+Adverse effect of medication,365,tox
+"Injury, other and unspecified, of sho...",358,trauma
+"Progress visit, NOS",354,other
+Arthritis,353,msk
+Vision dysfunctions,351,neuro
+Swelling of eyes,348,other
+Leg symptoms,344,other
+Contusions/abrasions/bruises of lower...,342,trauma
+"Pain, aching, tenderness of the scrot...",339,gu
+Contusions/abrasions/bruises of upper...,336,trauma
+Noncompliance with medication therapy,334,other
+"Unspecified muscle pain, ache, sorene...",331,msk
+Swelling of ankle,328,msk
+Other urinary dysfunctions,326,gu
+Weight gain,322,other
+Discharge from eye,322,other
+Pneumonia,316,resp
+"Laceration/cut, site unspecified",314,trauma
+"Cramps, spasms, site unspecified",310,other
+Other and unspecified diseases of the...,308,other
+"Ingestion, inhalation, or exposure to...",307,tox
+"Diseases of the liver, gallbladder, a...",302,gi
+Swelling of knee,300,msk
+"Disorders of speech, speech disturbance",297,neuro
+General medical examination,287,other
+"Burn, all degrees, to extremities",286,derm
+Vomiting blood (hematemesis),281,gi
+Police involvement in outpatient visi...,280,other
+Weakness of leg,277,neuro
+Swelling of arm,273,msk
+Other social problems,273,other
+"Infant crying too much, fussy, fidget...",269,ped
+Foreign body in digestive tract,263,gi
+Diseases of the thyroid gland,263,endo
+Exposure to other infectious diseases,262,id
+Viral diseases,261,id
+Symptoms referable to mouth,253,other
+"Abdominal distention, fullness, NOS",251,gi
+"Injury, other and unspecified, of back",250,trauma
+Other and unspecified mental disorders,249,psych
+Swelling of skin,249,derm
+"Symptoms of face, not elsewhere class...",244,other
+Other musculoskeletal or connective t...,244,msk
+Coughing up blood,242,resp
+Heartburn and indigestion (dyspepsia),238,gi
+Hernia of abdominal cavity,235,gi
+Other symptoms referable to skin,234,derm
+Anal-rectal pain,234,gi
+Symptoms referable to lips,233,other
+Foot and toe symptoms,231,msk
+"Contusion/abrasion/bruise, site unspe...",230,trauma
+Symptoms of teeth and gums,230,other
+"Overdose, intentional",230,tox
+Sinus pain and pressure,227,resp
+"Problems, complaints, NEC",222,other
+"Changes in size, color, shape, or odo...",221,other
+Other malignant neoplasms,220,other
+Other specific therapeutic procedures...,217,other
+Unusual color or odor of urine,216,gu
+SARS-CoV-2 (Coronavirus disease [COVID-19]) test,215,id
+Pain or soreness of breast,214,other
+Other reason for visit required by party,213,other
+Slurring,212,other
+"COVID-19, virus not identified",210,id
+"Pregnancy, unconfirmed",208,obgyn
+"Pulling at ears, picking at ears",206,other
+Exposure to venereal disease,206,id
+Vaginal pain,203,obgyn
+Sleepiness (hypersomnia),200,psych
+Temper problems,199,other
+Suicide attempt,199,psych
+Sinus congestion,199,resp
+Fracture/dislocation of arm,197,trauma
+Other and unspecified diagnostic tests,195,other
+Upper respiratory infections except t...,195,resp
+Other vaginal symptoms,195,obgyn
+"Injury, other and unspecified, of eye",193,other
+Foreign body in other and unspecified...,191,other
+"Mouth pain, burning, soreness",188,other
+"Injury, other and unspecified, of che...",185,trauma
+Other musculoskeletal symptoms,184,msk
+State of consciousness not specified,184,other
+Kidney dialysis,183,gu
+"Vaginal itching, burning",179,obgyn
+Foreign body in skin,173,derm
+Patient (or spokesperson) refused care,173,other
+Other and unspecified infectious and ...,172,id
+Other special examination,164,other
+Ear infection,163,id
+"Injury, other and unspecified, of elbow",163,trauma
+"Skin irritations, NEC",162,derm
+Other symptoms of nose,161,other
+Eye itching,154,other
+Cardiac arrest,150,cv
+Fracture/dislocation of leg,148,trauma
+Diminished hearing,146,other
+Intentional self-mutilation,146,psych
+Swelling of wrist,145,msk
+Sprain and strain of ankle,145,msk
+Throat swelling,141,resp
+Direct admission to hospital,141,other
+"Unspecified joint pain, ache, sorenes...",140,msk
+Foreign body in eye,138,other
+Drug dependence,138,tox
+Contusions/abrasions/bruises of trunk...,136,trauma
+"Infection, inflammation, swelling of ...",136,id
+Sneezing,136,resp
+Tube insertion,136,other
+Smoking problems,135,other
+"Infection of skin of leg, foot, or toe",135,derm
+Weight loss,133,other
+Rapid breathing (hyperventilation),133,resp
+Other benign neoplasms,133,other
+"Memory, disturbances of",132,other
+Swelling of neck,131,other
+Hemorrhoids,131,gi
+Prophylactic inoculations,131,other
+Symptoms referable to throat,130,resp
+Blood test for venereal disease,129,id
+"Phlebitis, thrombophlebitis",129,other
+Discharge from ear,128,other
+"Swelling, inflammation of the scrotum...",128,gu
+"Gout, hyperuricemia",128,msk
+Penile discharge,126,gu
+Symptoms of penis,126,gu
+"Involuntary urination, can't hold uri...",126,gu
+"Pain, aching, soreness, tenderness, p...",124,other
+Fears and phobias,124,psych
+"Other disturbances of sense, includin...",124,neuro
+Fungus infections (mycoses),122,id
+Alcohol detoxification,121,tox
+Rape,120,other
+Gunshot wound,119,trauma
+Other symptoms referable to the respi...,118,resp
+"Injury, other and unspecified, of hip",117,trauma
+"Abdominal swelling, NOS",116,gi
+Bronchitis,115,resp
+Feeling hot,114,other
+"Eczema and dermatitis, NOS",114,derm
+"Discharge from eye--tearing, watering...",114,other
+Small volume of urine,114,gu
+"Unspecified muscle cramps, contractur...",114,msk
+Alcoholism,113,tox
+Other blood test,110,other
+Dental abscess,110,id
+Plugged feeling in ear,109,other
+For results of cholesterol and trigly...,109,other
+Other and unspecified congenital anom...,109,other
+Other growths of skin,109,derm
+Chemotherapy,108,other
+Sinus problems,107,resp
+"Symptoms of head, NEC",106,other
+Diagnostic radiology,106,other
+Other symptoms referable to urinary t...,106,gu
+"Hoarseness, loss of voice",105,resp
+Detoxification,103,tox
+Other symptoms or changes in bowel fu...,103,gi
+Burning sensation in the chest,103,cv
+Weakness of arm,103,neuro
+Urinary tract instrumentation and cat...,102,gu
+Throat lump or mass,100,resp
+Decreased heartbeat,99,cv
+Gastrointestinal bleeding,99,gi
+Jaundice,98,gi
+Venereal diseases,96,id
+"Mouth ulcer, sore",95,other
+Difficulty eating,94,other
+Pelvic symptoms,94,obgyn
+Fracture/dislocation of head and face,92,trauma
+Streptococcal infection,92,id
+"Disorders of respiratory sound, NEC",91,resp
+"Infection of skin of arm, hand, or fi...",91,derm
+HIV with or without associated conditions,90,id
+Drug detoxification,89,tox
+"Cancer, respiratory tract",89,other
+Extraneous vision,89,neuro
+Hay fever,88,id
+Blindness and half vision,88,neuro
+Flatulence,88,gu
+Other diseases of blood and blood-for...,88,other
+Swelling of elbow,88,msk
+"Tumor or mass, site unspecified",87,other
+Swollen or enlarged glands,87,other
+"Hodgkin's disease, lymphomata, leukemias",86,other
+Knee symptoms,86,msk
+General or unspecified nonviral infec...,85,id
+Abdominal mass or tumor,85,other
+Injections,85,other
+"Tongue inflammation, infection, swelling",82,resp
+Preoperative visit for specified/unsp...,82,other
+Extraneous hearing,81,other
+"Dressing, bandage - application, change",80,other
+"Cancer, gastrointestinal tract",80,other
+Foreign body in nose,80,other
+Parasitic diseases,79,id
+Pinkeye,79,id
+Legal problems,79,other
+Altered level of consciousness,79,neuro
+Symptoms referable to tongue,78,other
+Laceration/cut of trunk area,78,trauma
+"Symptoms of the jaw, swelling",78,msk
+Intermenstrual bleeding (metrorrhagia),78,obgyn
+Back symptoms,77,msk
+Epilepsy,77,neuro
+Illegible entry,77,other
+Entry of 'none' or 'no complaint',77,other
+"Limitation of movement, stiffness of arm",77,msk
+"Sepsis, septicemia",77,id
+Sleep apnea,77,other
+"Leg cramps, contractures, spasms",76,other
+Puncture wound of lower extremity,76,trauma
+"Throat irritation, scratch, tickle",76,resp
+Abnormal sensations of the eye,76,other
+Bleeding of ear,76,other
+Kidney pain,75,gu
+"Stiffness, site unspecified",75,other
+"Puncture wound, site unspecified",75,trauma
+Chest pain and related symptoms,75,cv
+"Burn, all degrees, to head, neck, and...",74,derm
+"Back cramps, contractures, spasms",74,msk
+"Pallor, paleness",73,other
+Eye burning,72,other
+"Burn, all degrees, to site unspecified",71,derm
+Fracture/dislocation of hand and fingers,70,trauma
+Contusions/abrasions/bruises of eye,69,trauma
+"Sprain or strain, other and unspecified",69,msk
+"Cast, splint - application, removal",69,other
+Anger,69,psych
+"Limitation of movement, stiffness of leg",69,msk
+Puncture wound of upper extremity,69,trauma
+Diseases of the male genital organs,68,id
+"Lump, mass, tumor of neck",67,other
+Internal prosthetic device,67,other
+Shoulder symptoms,66,msk
+Neck symptoms,66,msk
+Respiratory therapy,65,resp
+Parent-child problems,64,psych
+Physical examination required for emp...,64,other
+Double vision (diplopia),64,neuro
+Adverse effects of environment,64,other
+For results of EKG,64,other
+Other problems of family relationship,64,other
+Other symptoms ref to the cardiovas/l...,63,cv
+"Fracture/dislocation of trunk area, e...",62,trauma
+Acne or pimples,62,derm
+Feeling cold,62,other
+Diaper rash,62,ped
+Excessive thirst,62,other
+Other diseases of female reproductive...,61,obgyn
+Multiple sclerosis,61,neuro
+Navel problems,61,other
+Excessively heavy (menorrhagia) menst...,61,obgyn
+"Burn, all degrees, to trunk area",60,derm
+"Sinus inflammation, infection",60,resp
+Skin pain,59,derm
+Blood pressure test,59,other
+Postpartum problems,59,obgyn
+Hysterical behavior,59,psych
+"Cancer, breast",58,other
+"Substance abuse, NOS",58,tox
+Symptoms of bladder,58,gu
+Infant feeding problem,58,ped
+Minor surgery,57,other
+Symptoms referable to tonsils,57,other
+Other symptoms of the heart,56,cv
+For radiological findings,56,other
+Other diseases of digestive system,55,gi
+Late effects of an old injury,55,other
+"Transplant, NOS",55,other
+Other symptoms referable to the femal...,54,obgyn
+Other symptoms referable to breast,54,obgyn
+Personal history of COVID-19,54,other
+Inflammatory diseases of the eye,54,other
+Parkinson's disease (paralysis agitans),53,neuro
+Disturbances of sleep,53,psych
+General viral infection,52,id
+Major surgery,52,other
+Lack of growth,51,ped
+Exposure to bodily fluids of another ...,51,other
+Pelvic pressure or dropping sensation,51,obgyn
+Painful menstruation (dysmenorrhea),51,obgyn
+Fracture/dislocation of foot and toes,50,trauma
+"Discharge from eye--pus, matter, whit...",50,other
+"Cancer, male genital tract",50,other
+"Flushed, blushing",49,derm
+Bladder pain,48,gu
+Problem with access to medical care,47,other
+Otitis media,46,id
+"IV therapy, infusion",45,other
+Kidney infection,45,gu
+Nonarticular rheumatism,45,id
+Child abuse or neglect,45,other
+Symptoms of eyelids,45,other
+"Lump, mass, tumor of arm",44,other
+Abnormalities of sputum or phlegm,44,resp
+Mouth dryness,44,other
+"Appendicitis, all types",43,gi
+Ingrown nails,42,other
+Swelling of unspecified joints,42,msk
+Restlessness,42,other
+Sexual abuse,42,other
+Disturbances of sensation,41,neuro
+For results of urine tests,41,gu
+Lump or mass of breast,41,other
+"Dryness, peeling, scaliness, roughnes...",41,derm
+Gum pain,39,other
+Fracture/dislocation of ankle,39,trauma
+Dental cavities,39,other
+Inflammation and swelling of nose,39,other
+Bladder infection,39,gu
+Symptoms referable to nails,39,other
+"Cancer, skin and subcutaneous tissues",38,other
+Ankle symptoms,38,msk
+"Abnormal material in menstrual flow, ...",37,obgyn
+Antisocial behavior,37,psych
+Fracture/dislocation of spinal column,37,trauma
+Swelling of shoulder,36,msk
+Corrective appliances,36,other
+"Lump, mass, tumor of leg",36,other
+Incontinence of stool,36,gi
+Hip symptoms,36,msk
+Attention deficit disorder (ADD),35,psych
+Personality and character disorders,35,psych
+"Menstrual symptoms, other and unspeci...",35,obgyn
+"Pain and related symptoms, generalize...",34,other
+Mouth bleeding,34,other
+Fracture/dislocation of wrist,34,trauma
+Contraceptive device,34,obgyn
+"Sprain and strain of cervical spine, ...",33,msk
+Sprain and strain of knee,33,msk
+"Appetite, abnormal",33,other
+Large volume of urine,33,other
+Economic problem,33,other
+"Symptoms of liver, gallbladder, and b...",33,gi
+Symptoms referable to hair and scalp,32,derm
+"Sunburn, windburn",32,derm
+Accidental poisoning,32,tox
+Symptoms of prostate,32,gu
+Abnormal eye movements,32,neuro
+Glaucoma,31,other
+Varicose veins,31,other
+Other diseases of the eye,31,other
+Feeling hot and cold,31,other
+Marital problems,31,other
+"Cancer, female genital tract",30,other
+Sprain and strain of back,30,msk
+Occupational problems,30,other
+Physical medicine and rehabilitation,30,other
+Tongue pain,29,other
+"Vulvar itching and irritation, swelling",29,derm
+"Fracture, other and unspecified",29,trauma
+"Hand and finger cramps, contractures,...",28,msk
+Prematurity,28,ped
+Other symptoms of male reproductive s...,28,gu
+Unpredictable menstrual interval,28,obgyn
+Urinary hesitancy,28,gu
+Musculoskeletal deformities,27,msk
+"Neck cramps, contractures, spasms",27,msk
+Discharge from eye--bleeding,27,other
+"Cervicitis, vaginitis",27,obgyn
+Eye infection and inflammation,27,other
+Cardiopulmonary resuscitation,27,cv
+Poor circulation,27,cv
+Wrist symptoms,27,msk
+Abnormal movement of eyelids,26,other
+Weakness of knee,26,msk
+Vasomotor symptoms-hot flashes,26,other
+Cancer of urinary tract,26,other
+Symptoms of the kidneys,26,gu
+Well baby examination,26,ped
+Gastrointestinal infection,26,gi
+Lung pain,25,resp
+Weakness of unspecified muscles,25,neuro
+Disorders of voice,25,other
+Symptoms of unspecified muscles,25,msk
+Neuroses,25,psych
+"Symptoms of the jaw, NOS",24,other
+COVID-19 immunization,24,other
+Symptoms referable to anus-rectum,24,gi
+Heart pain,24,cv
+Problems with identity and self-esteem,24,psych
+"Low back cramps, contractures, spasms",24,msk
+"Infant regurgitation, spitting up",24,ped
+Fibroids and other uterine neoplasms,24,obgyn
+Elbow symptoms,23,msk
+Fibrocystic and other diseases of breast,23,other
+Low back symptoms,23,msk
+Food poisoning,23,tox
+Contact lens problems,23,other
+Intestinal infectious diseases,23,gi
+Abnormalities of urine,22,gu
+Symptoms of sexual dysfunction,22,other
+Absence of menstruation (amenorrhea),22,obgyn
+"Internal mass, NOS",22,other
+Glucose level determination,22,endo
+"Lumps, bumps, growths, warts of penis",21,id
+Symptoms of the scrotum and testes,21,gu
+Educational problems,21,other
+Other diseases of the ear,20,other
+Excessive appetite,20,other
+Weakness of hand and finger,20,neuro
+Symptoms of growth and developmental ...,20,ped
+Discharge in stools,20,gi
+Mental retardation,19,other
+Change in abdominal size,19,gi
+Battered spouse,19,other
+Radiation therapy,19,other
+Recent weight loss,18,other
+Bleeding gums,18,other
+Cataract,18,other
+Diabetic skin ulcer (wound check),18,derm
+Bleeding or discharge from nipple of ...,18,other
+Psoriasis,18,derm
+"Growths, warts, lumps, bumps of the s...",18,derm
+Anal-rectal swelling or mass,18,gi
+"Postpartum examination, routine",17,obgyn
+"Cracked, bleeding, dry lips",17,derm
+Contraceptive medication,17,obgyn
+Hypertension with involvement of targ...,17,cv
+"Pain of liver, gallbladder, and bilia...",17,gi
+Congenital anomalies of heart and cir...,17,cv
+Cold sore,17,other
+"Arm cramps, contractures, spasms",16,msk
+Infection of skin of head or neck area,16,derm
+Deviation of eyes,16,neuro
+Heart catheterization,16,cv
+Vulvar disorders,16,derm
+For cytology findings,16,other
+"Lump, mass, tumor of back",15,other
+Sprain and strain of wrist,15,msk
+"General symptoms of infants, NEC",15,ped
+Anal-rectal itching,15,derm
+"EKG, ECG, electrocardiogram, treadmil...",15,cv
+"Other diseases genitourinary system, NEC",15,gu
+Swelling of hip,15,msk
+Emphysema,15,resp
+Drowning,15,other
+Other symptoms of body temperature,15,other
+Family history of other disease or co...,15,other
+Tonsillitis,14,other
+Diagnostic endoscopies,14,other
+Human immunodeficiency virus (HIV) test,14,other
+Symptoms of unspecified joints,14,msk
+Heightened or acute hearing,14,other
+Mass or growth of eyelids,13,other
+Weakness of foot and toe,13,neuro
+"Lump, mass, tumor of foot and toe",13,other
+Itching of ears,13,other
+"Vulvar growth, wart, cyst, ulcer, sore",13,derm
+Social adjustment problems,13,psych
+Abnormal appearance of eyes,12,other
+Cystitis,12,gu
+"Vulvar mass, lump",12,other
+Diet and nutritional counseling,12,other
+Psychotherapy,12,psych
+"Lump, mass, tumor of hand and finger",12,other
+"Abnormal color, ridges, coated tongue",11,other
+Exposure to human immunodeficiency vi...,11,other
+"Puncture wound of head, neck and faci...",11,tra
+"Adverse effects, other and unspecified",11,other
+Weakness of ankle,11,neuro
+Itching of scalp,11,derm
+Too little hair,11,derm
+Obsessions and compulsions,11,psych
+Urine test,10,gu
+Worker's Compensation examination,10,other
+"Brittle, breaking, splitting, cracked...",10,other
+Physical examination required for school,10,other
+"Foot and toe cramps, contractures, sp...",10,msk
+Atherosclerosis,10,other
+Growths or mass of ears,10,other
+Allergy medication,10,other
+Impotence,10,other
+Throat infection,10,resp
+"Warts, NOS",10,derm
+Vaginal infection,10,obgyn
+Hearing dysfunctions,10,other
+"Limitation of movement, stiffness of hip",9,msk
+Nightmares,9,psych
+For results of skin tests,9,other
+Family history of cardiovascular disease,9,other
+Tongue bleeding,9,other
+Puncture wound of trunk area,9,tra
+Abnormal color of lips,9,other
+Adverse effects of secondhand smoke,9,other
+"Stuttering, stammering",8,neuro
+Infected nails,8,derm
+Skin immunity test,8,other
+"Lump, mass, tumor of wrist",8,other
+Patient unable to speak English,8,other
+Alcohol poisoning,8,tox
+Psychosexual disorders,8,psych
+Cardiopulmonary arrest,8,cv
+Gynecological examination,8,obgyn
+Dead on arrival (DOA),8,other
+Foreign body in respiratory tract,8,resp
+"Family planning, NOS",8,other
+Eye examination,8,other
+"Postcoital bleeding, female",8,obgyn
+"Lump, mass, tumor of shoulder",7,other
+"Symptoms of the jaw, lump or mass",7,other
+Temperomandibular joint (TMJ) pain,7,msk
+"Lesion, Internal, NOS (excludes brain and skin)",7,derm
+"Excessive urination, night (nocturia)",7,gu
+Postpartum problems of breast,7,other
+Symptoms of skin moles,7,derm
+Underweight,7,other
+Encounter for screening for COVID-19,7,other
+"Post COVID-10 condition, unspecified",6,other
+Refractive error,6,other
+Pneumonia due to SARS-associated coronavirus,6,resp
+"Itching, jock itch of the scrotum and...",6,derm
+Sore in nose,6,other
+Problem with appearance of nose,6,
+Increased sensation (hyperesthesia),6,neuro
+Pelvic inflammatory disease (PID),6,obgyn
+"Lump, mass, tumor of elbow",6,other
+Pus in sputum,6,resp
+Pupils unequal,6,neuro
+Weakness of hip,5,msk
+Itching of eyelids,5,derm
+Heart examination,5,other
+Pus (purulent drainage) from ear,5,id
+"External prosthetic devices, artifici...",5,other
+Neoplasm of uncertain nature,5,other
+Bedwetting,5,other
+"Lump, mass, tumor of knee",5,other
+Impetigo,5,derm
+Swelling of back,5,other
+Undescended testicles,5,other
+"Cloudy, dull, hazy appearance of eyes",4,other
+Sterilization to be performed (at thi...,4,other
+Frequent menstrual interval,4,obgyn
+Menopausal symptoms,4,other
+Premarital examination,4,other
+Sore glands,4,other
+"Lump, mass, tumor of hip",4,other
+Canker sore,4,other
+Respiratory arrest,4,resp
+Incontinence of urine (enuresis),4,gu
+All other perinatal conditions,4,other
+Physical examination for extracurricu...,4,other
+Sleepwalking,4,psych
+Symptoms of the kidneys -- mass,4,gu
+Worms,4,gi
+"Transplant, rejection",3,other
+"Dryness, flaky scalp",3,derm
+Glaucoma test,3,other
+Pus in urine,3,gu
+Severe sepsis,3,id
+Vaginal dryness,3,obgyn
+Weakness of neck,3,msk
+Seborrheic dermatitis,3,derm
+Human immunodeficiency virus (HIV) co...,3,other
+Irregularity of menstrual interval,3,obgyn
+Biopsies,3,other
+Fitting glasses and contact lenses,3,other
+Symptoms of infertility,3,other
+Weakness of shoulder,3,msk
+Physical examination required for sch...,3,other
+Abnormal retraction of eye,3,other
+Tension headache,3,neuro
+Pap smear,3,obgyn
+Counseling and examinations for pregn...,3,obgyn
+Symptoms of lymph glands (or nodes),3,other
+Swimmer's ear,3,id
+Hormone deficiency or problem,2,endo
+Other cultures,2,other
+Abortion to be performed (at this visit),2,obgyn
+Scanty flow (oligomenorrhea) menstrua...,2,obgyn
+Throat culture,2,id
+SARS-CoV-2 (Coronavirus disease [COVID-19]) antibody test,2,other
+"Bowlegged, knock-kneed",2,other
+"Ankle cramps, contractures, spasms",2,msk
+Cross-eyed,2,neuro
+Change in size or color of skin moles,2,derm
+"Masturbation excessive, concerns about",2,psych
+"Knee cramps, contractures, spasms",2,msk
+Elder abuse,2,other
+Nailbiting,2,derm
+Lung infection,2,resp
+20152,1,other
+Family history of cancer,1,other
+"Unspecified joint cramps, contracture...",1,msk
+Wrinkles of skin,1,derm
+Posture problems,1,other
+"EEG, electroencephalogram",1,neuro
+26754,1,other
+Family history of diabetes,1,other
+Infrequent menstrual interval,1,obgyn
+"Cosmetic injection, NOS",1,other
+Swelling of lower back,1,msk
+"Shoulder cramps, contractures, spasms",1,msk
+Insurance examination,1,other
+Allergy problems referable to eye,1,other
+Swelling of prostate,1,gu
+Eye strain,1,other
+"Coronavirus infection, unspecified",1,id
+"Irrigation, lavage",1,other
+"Earache, or ear infection",1,id
+Weakness of wrist,1,msk
+Bladder mass,1,gu
+"Wrist cramps, contractures, spasms",1,msk
+"Mammography, xerography, breast therm...",1,other
+Postmenopausal bleeding,1,obgyn
+"Lump, mass, tumor of ankle",1,other
+Protrusion (exophthalmos) of eyes,1,other
+Infection of prostate,1,gu
+Excessive growth,1,other
+"Orgasm, problem with",1,other
+Rheumatic fever and chronic rheumatic...,1,id
+"Systemic inflammatory response syndrome (SIRS), unspecified",1,other
+Problems with shape or size of breast,1,other
+"Transplant, failure",1,other

@@ -135,10 +135,10 @@ def plot_htn_proportion_over_time(df, htn_definition, ax):
     ax.plot(vals.index.astype(int), vals)
     ax.scatter(vals.index.astype(int), vals)
 
-    ax.set_ylim(0, 0.1)
+    ax.set_ylim(0, 1)
 
     ax.set_title(
-        f'Proprtion of SBP >{htn_definition.sbp_cutoff} or DBP > {htn_definition.dbp_cutoff} over time')
+        f'Proportion of SBP >{htn_definition.sbp_cutoff} or DBP > {htn_definition.dbp_cutoff} over time')
     return ax
 
 
@@ -158,6 +158,7 @@ def build_time_series_multiplot(df, htn_definition):
 
 if __name__ == "__main__":
     df = pd.read_pickle('./outputs/working_dataframe.pkl')
-    htn_definition = Htn_definition(df, sbp_cutoff=180, dbp_cutoff=110)
+    htn_definition = Htn_definition(df, sbp_cutoff=120, dbp_cutoff=80)
+
     build_time_series_multiplot(df, htn_definition)
     plt.show()

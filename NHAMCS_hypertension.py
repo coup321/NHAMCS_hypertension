@@ -24,11 +24,16 @@ def main(df, htn_def):
         'VTIMER': 'multinomial',
         'ANTIHYPERTENSIVE_RX': 'binomial',
         'ANTIHYPERTENSIVE_GIVEN': 'binomial',
+        'TRIAGE_TACHYCARDIA': 'binomial',
         'TYLENOL_GIVEN': 'binomial',
         'NO_TRIAGE_BP': 'binomial',
         'DIED': 'binomial',
         'PAYTYPER': 'multinomial',
         'ADMITHOS': 'binomial',
+        'LEFT_AMA': 'binomial',
+        'LWBS': 'binomial',
+        'ADMITS_COMBINED': 'binomial',
+        'DISCHARGED_COMBINED': 'binomial',
         'ARREMS': 'multinomial',
         'RACERETH': 'multinomial',
         'REGION': 'multinomial',
@@ -88,12 +93,17 @@ def export_cutoff(df, sbp_cutoff, dbp_cutoff):
 
 
 if __name__ == "__main__":
-    force_download = sys.argv[1] in ['force', 'Force', '--force', '--Force']
+    if len(sys.argv) > 0:
+        force_download = False
+    else:
+        force_download = sys.argv[1] in ['force', 'Force', '--force', '--Force']
     if os.path.exists('./outputs/working_dataframe.pkl') and not force_download:
         df = pd.read_pickle('./outputs/working_dataframe.pkl')
     else:
         build_dataframe(force_download=force_download)
         df = pd.read_pickle('./outputs/working_dataframe.pkl')
+    for col in df.columns:
+        print(col)
     cutoffs = [
         [180, 110],
         [160, 100],

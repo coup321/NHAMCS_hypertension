@@ -9,15 +9,15 @@ pd.set_option('display.width', None)
 
 class CategoricalStats():
     '''
-    Contains methods for generating the base characteristics tables 
+    Contains methods for generating the base characteristics tables
     Args:
     # df - working dataframe
 
     # htn_definition - from Htn_definition class, gives BP cutoff values
     and has a function to get the patients with hypertension by the definition
 
-    # queries - should be a dictionary with col_name: kind where kind is 
-    'binomial' or 'multinomial' which indicates if it sa binary category or if 
+    # queries - should be a dictionary with col_name: kind where kind is
+    'binomial' or 'multinomial' which indicates if it sa binary category or if
     it contains more than 2 category types.
 
     Example use:

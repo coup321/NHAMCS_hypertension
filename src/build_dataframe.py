@@ -7,7 +7,7 @@ It creates a specific column that indicates if a patient had a particular
 cardiovascular outcome as defined the lists at the top of the module. This
 is primarily based on ICD codes.
 
-If there are issues accessing the spss files the following links to the main 
+If there are issues accessing the spss files the following links to the main
 ftp download server on the CDC website and the main NHAMCS site.
 
 https://ftp.cdc.gov/pub/Health_Statistics/NCHS/dataset_documentation/nhamcs/spss
@@ -180,17 +180,20 @@ def get_MED_filter(df, rx_type, med_list):
 
 
 def tweak_df(df):
+    # med columns (MED1-MED30)
     MED = [col for col in df.columns if re.search(r'^MED\d', col)]
+    # given/prescribed indicator (GPMED1-GPMED30)
     GPMED = [col for col in df.columns if re.search(r'GPMED\d', col)]
     keep_columns = [
         'YEAR', 'VMONTH', 'VDAYR', 'ARRTIME', 'AGE', 'SEX', 'RACERETH', 'CPR',
-        'ADMITHOS', 'ADISP', 'REGION', 'MSA', 'PAYTYPER', 'BPSYS', 'BPSYSD',
+        'ADMITHOS', 'ADISP', 'REGION', 'MSA', 'PAYTYPER', 'BPSYS', 'BPSYSD', 'PULSE',
         'BPDIAS', 'BPDIASD', 'XRAY', 'HTN', 'ARREMS', 'HDSTAT', 'DOA', 'DIEDED', 'LOS', 'LOV',
         'LUMBAR', 'MRI', 'CATSCAN', 'CBC', 'CARDENZ', 'PAINSCALE', 'IMMEDR',
         'ATTPHYS',
         'RESINT', 'NURSEPR', 'PHYSASST', 'CSTRATM', 'CPSUM', 'PATWT',
-        'DIAG1', 'DIAG2', 'DIAG3', 'DIAG4', 'DIAG5', 'RFV1', 'RFV2', 'RFV3', 'RFV4', 'RFV5'
-    ] + MED + GPMED
+        'DIAG1', 'DIAG2', 'DIAG3', 'DIAG4', 'DIAG5', 'RFV1', 'RFV2', 'RFV3', 'RFV4', 'RFV5',
+        'NOFU', 'RETRNED', 'RETREFFU', 'LEFTAMA', 'LWBS', 'TRANNH','TRANPSYC','TRANOTH','OBSHOS','OBSDIS','OTHDISP'
+        ] + MED + GPMED
 
     # get the med list based on antihypertensive_med module
     ANTIHYPERTENSIVE_MEDS = import_modified_hypertensive_list()
@@ -227,9 +230,29 @@ def tweak_df(df):
                 labels=['Age 18-25', 'Age 26-44', 'Age 45-65', 'Age over 65']
             ).astype('category'),
             # make ADMITHOS a binary variable
-            ADMITHOS=lambda df: df.ADMITHOS.replace(
-                {'Yes': 1, 'No': 0}).astype(bool),
-            # replace 'Blank' values in BPSYS, BPSYSD, BPDIAS, BPDIASD
+            ADMITS_COMBINED=lambda df: (
+                (df.ADMITHOS == 'Yes') |
+                (df.TRANNH == 'Yes') |
+                (df.TRANPSYC == 'Yes') |
+                (df.TRANOTH == 'Yes') |
+                (df.OBSHOS == 'Yes') |
+                (df.OBSDIS == 'Yes')
+            ),
+            DISCHARGED_COMBINED = lambda df: ~df.ADMITS_COMBINED & (
+                (df.NOFU == 'Yes') |
+                (df.RETRNED == 'Yes') |
+                (df.RETREFFU == 'Yes') |
+                (df.DIEDED == 'Yes')
+            ),
+            LEFT_AMA = lambda df: df.LEFTAMA == 'Yes',
+            LWBS = lambda df: df.LWBS == 'Yes',
+            ADMITHOS=lambda df: df.ADMITHOS.replace({'Yes': 1, 'No': 0}).astype(bool),
+            PULSE = lambda df: df.PULSE.replace(
+
+                {'DOPP or DOPPLER':np.nan, 'Blank':np.nan}
+            ),
+            TRIAGE_TACHYCARDIA = lambda df: df.PULSE > 100,
+            # replace 'Blank' values in BPSYS, BPSYSD, BPDIAS, BPDIASD, PULSE
             # also fix the type to be float
             BPSYS=lambda df: df.BPSYS.replace('Blank', np.nan).astype('float'),
             BPSYSD=lambda df: df.BPSYSD.replace(
@@ -242,6 +265,20 @@ def tweak_df(df):
                 'Blank': np.nan,
                 'P, Palp, DOP or DOPPLER': np.nan,
                 'P, Palp, DOPP or DOPPLER': np.nan}).astype('float'),
+            SBP_BIN=lambda df: pd.cut(
+                df.BPSYS,
+                bins=[59, 79, 99, 119, 139, 159, 179, 199, 219],
+                labels=[
+                    'SBP 60-80',
+                    'SBP 80-100',
+                    'SBP 100-120',
+                    'SBP 120-140',
+                    'SBP 140-160',
+                    'SBP 160-180',
+                    'SBP 180-200',
+                    'SBP 200-220',
+                    ]
+            ).astype('category'),
             # if pt has history of hypertension
             HX_HTN=lambda df: (df.HTN == 'Yes').astype(int),
             # if the patient has a null value for triage blood pressure
@@ -332,9 +369,9 @@ def build_dataframe(force_download=False):
 
 
 if __name__ == "__main__":
-    # raw_df = load_dfs()
-    # df = tweak_df(raw_df)
-    # print(df)
-    # raw_df.to_pickle('./outputs/working_raw_dataframe.pkl')
-    # df.to_pickle('./outputs/working_dataframe.pkl')
-    print(validate_data())
+    raw_df = load_dfs()
+    df = tweak_df(raw_df)
+    print(df)
+    raw_df.to_pickle('./outputs/working_raw_dataframe.pkl')
+    df.to_pickle('./outputs/working_dataframe.pkl')
+    # print(validate_data())
